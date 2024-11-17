@@ -26,6 +26,8 @@ for fandom in fandoms:
         fandom_data.append(max_works)
     output_data.append(fandom_data)
 
+for datum in output_data:
+    datum[5] = (datum[4] + datum[6]) // 2
 # Create the resulting DataFrame
 result_df = pd.DataFrame(output_data, columns=[str(year) for year in years], index=fandoms)
 
