@@ -27,7 +27,7 @@ for fandom in fandoms:
     output_data.append(fandom_data)
 
 for datum in output_data:
-    datum[5] = (datum[4] + datum[6]) // 2
+    datum[5] = (datum[4] + datum[6]) // 2 if datum[6] != 0 else 0
 # Create the resulting DataFrame
 result_df = pd.DataFrame(output_data, columns=[str(year) for year in years], index=fandoms)
 
