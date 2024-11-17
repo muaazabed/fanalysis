@@ -1,6 +1,6 @@
 <p align="center"> <img src="https://github.com/muaazabed/fanalysis/raw/refs/heads/main/Logo2.webp" alt="HTML5 Icon" style="width:30%;height:30%;"/> </p>
 
-# Fanalysis
+# [Fanalysis](https://fanalysis.tech/)
 
 ### Inspiration
 Fanfiction is a medium that is often derided for its allowance of wish fulfillment and amateurish writing. This mindset, however, ignores the uncomfortable truth that what occurs in fanfiction reflects the will of the fans. This is to say that in the media that consumers create, one can see what they desire. That is the inspiration behind Fanalysis—allowing creators to analyze fanfiction statistics to best determine what direction they should bring their IP to best please their fans.
