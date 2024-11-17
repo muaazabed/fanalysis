@@ -18,7 +18,7 @@ We ran into several issues while developing the project. When looking for statis
 We're proud of the fanfiction dataset that we custom built for our application to have data to operate on. There is no other database of a comparable size when it comes to fanfiction, and it opens new doors when it comes to fandom analysis. We are also proud of our hosting solution. We don't have much experience when it comes cross-platform hosting, but we still got it up and running.
 
 ### What we learned
-We learned how to leverage powerful libraries like PANDAS to analyze data for our applications. We also learned how to work in tandem with powerful services like Hostinger.
+We learned how to leverage powerful libraries like PANDAS to analyze data for our applications. We also learned how to work in tandem with flexible services like Hostinger.
 
 ### What's next for Fananalysis
 Fanalysis is heavily dependant on many different fandoms from which it collects data from. The next step for Fanalysis is to feature greater integration with the fandoms themselves. For example, a fandom surrounding a band will have greater statistics regarding their discography, while a TV show fandom will have greater data for each episode and how it relates to the greater fandom.
