@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Line Graph with Markers</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.1.0"></script>
+</head>
+<body>
+  <h1>Fandom Popularity Over Time</h1>
+  
+  <!-- Dropdown for selecting a fandom -->
+  <label for="fandomDropdown">Select Fandom:</label>
+  <select id="fandomDropdown">
+    <option value="">--Select a Fandom--</option>
+  </select>
+
+  <!-- Input for adding markers -->
+  <h3>Add Marker</h3>
+  <label for="markerYear">Year:</label>
+  <input type="number" id="markerYear" placeholder="Enter Year">
+  <label for="markerText">Text:</label>
+  <input type="text" id="markerText" placeholder="Enter Marker Text">
+  <button id="addMarkerButton">Add Marker</button>
+
+  <!-- Chart container -->
+  <canvas id="lineChart" width="800" height="400"></canvas>
+
+  <script>
+    // Function to fetch and parse CSV
+    async function fetchCSV(url) {
+      const response = await fetch(url);
+      const data = await response.text();
+      const rows = data.split('\n').map(row => row.split(','));
+
+      const years = rows[0].slice(1); // First row (Years)
+      const fandoms = rows.slice(1).map(row => ({
+        label: row[0], // Fandom name
+        data: row.slice(1).map(Number) // Numeric data
+      }));
+
+      return { years, fandoms };
+    }
+
+    // Generate random colors for the line
+    function getRandomColor() {
+      return `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, 1)`;
+    }
+
+    // Create the chart with markers
+    let lineChart;
+    function createChart(labels, dataset, markers = []) {
+      const ctx = document.getElementById('lineChart').getContext('2d');
+      
+      if (lineChart) {
+        lineChart.destroy(); // Destroy the previous chart if it exists
+      }
+
+      lineChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labels,
+          datasets: [{
+            label: dataset.label,
+            data: dataset.data,
+            borderColor: getRandomColor(),
+            fill: false
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              position: 'top',
+            },
+            title: {
+              display: true,
+              text: 'Fandom Popularity Over Time'
+            },
+            annotation: {
+              annotations: markers // Add annotations here
+            }
+          }
+        }
+      });
+    }
+
+    // Initialize the dropdown and chart
+    async function initialize() {
+      const csvData = await fetchCSV('ff.csv'); // Replace with your CSV file URL
+      const dropdown = document.getElementById('fandomDropdown');
+
+      // Populate the dropdown
+      csvData.fandoms.forEach((fandom, index) => {
+        const option = document.createElement('option');
+        option.value = index; // Use index to map to fandoms array
+        option.textContent = fandom.label;
+        dropdown.appendChild(option);
+      });
+
+      // Track markers for each fandom
+      const markersMap = {
+  "Mo Dao Zu Shi": [
+    {
+      type: 'line', // Type of marker
+      xMin: 2, // X-axis start position (e.g., 5th year in the dataset)
+      xMax: 2, // X-axis end position (same as start for a vertical line)
+      borderColor: '#081133', // Line color
+      borderWidth: 2, // Line thickness
+      label: {
+        content: 'Publication Begins', // Text displayed with the marker
+        enabled: true, // Display the label
+        position: 'top', // Label position
+      }
+    },
+    {
+      type: 'line', // Type of marker
+      xMin: 5, // X-axis start position (e.g., 5th year in the dataset)
+      xMax: 5, // X-axis end position (same as start for a vertical line)
+      borderColor: '#081133', // Line color
+      borderWidth: 2, // Line thickness
+      label: {
+        content: 'Anime Releases', // Text displayed with the marker
+        enabled: true, // Display the label
+        position: 'top', // Label position
+      }
+    }
+  ],
+  "My Chemical Romance": [
+    {
+      type: 'line',
+      xMin: 0,
+      xMax: 0,
+      borderColor: '#081133',
+      borderWidth: 2,
+      label: {
+        content: 'Band Disbanded',
+        enabled: true,
+        position: 'top',
+      }
+    },
+   {
+      type: 'line', // Type of marker
+      xMin: 6, // X-axis start position (e.g., 5th year in the dataset)
+      xMax: 6, // X-axis end position (same as start for a vertical line)
+      borderColor: '#081133', // Line color
+      borderWidth: 2, // Line thickness
+      label: {
+        content: 'Band Reunion', // Text displayed with the marker
+        enabled: true, // Display the label
+        position: 'top', // Label position
+      }
+    }
+  ],
+  "Captain America (Movies)": [
+    {
+      type: 'line',
+      xMin: 1,
+      xMax: 1,
+      borderColor: '#081133',
+      borderWidth: 2,
+      label: {
+        content: 'Sequel Released',
+        enabled: true,
+        position: 'top',
+      }
+    },
+   {
+      type: 'line', // Type of marker
+      xMin: 3, // X-axis start position (e.g., 5th year in the dataset)
+      xMax: 3, // X-axis end position (same as start for a vertical line)
+      borderColor: '#081133', // Line color
+      borderWidth: 2, // Line thickness
+      label: {
+        content: 'Civil War Releases', // Text displayed with the marker
+        enabled: true, // Display the label
+        position: 'top', // Label position
+      }
+    },
+    {
+      type: 'line', // Type of marker
+      xMin: 5, // X-axis start position (e.g., 5th year in the dataset)
+      xMax: 5, // X-axis end position (same as start for a vertical line)
+      borderColor: '#081133', // Line color
+      borderWidth: 2, // Line thickness
+      label: {
+        content: 'Infinity War Releases', // Text displayed with the marker
+        enabled: true, // Display the label
+        position: 'top', // Label position
+      }
+    },
+    {
+      type: 'line', // Type of marker
+      xMin: 6, // X-axis start position (e.g., 5th year in the dataset)
+      xMax: 6, // X-axis end position (same as start for a vertical line)
+      borderColor: '#081133', // Line color
+      borderWidth: 2, // Line thickness
+      label: {
+        content: 'Endgame Releases', // Text displayed with the marker
+        enabled: true, // Display the label
+        position: 'top', // Label position
+      }
+    }
+  ]
+};
+
+      // Add event listener to update chart on selection
+      dropdown.addEventListener('change', function () {
+        const selectedIndex = this.value;
+        if (selectedIndex !== "") {
+          const selectedFandom = csvData.fandoms[selectedIndex];
+          const markers = markersMap[selectedFandom.label] || [];
+          createChart(csvData.years, selectedFandom, markers);
+        }
+      });
+
+      // Add marker to the selected chart
+      document.getElementById('addMarkerButton').addEventListener('click', function () {
+        const year = document.getElementById('markerYear').value;
+        const text = document.getElementById('markerText').value;
+        const selectedIndex = dropdown.value;
+
+        if (!year || !text || selectedIndex === "") {
+          alert("Please select a fandom and provide both year and marker text.");
+          return;
+        }
+
+        const selectedFandom = csvData.fandoms[selectedIndex];
+        const yearIndex = csvData.years.indexOf(year);
+
+        if (yearIndex === -1) {
+          alert("Invalid year. Please enter a valid year.");
+          return;
+        }
+
+        // Add the marker
+        if (!markersMap[selectedFandom.label]) {
+          markersMap[selectedFandom.label] = [];
+        }
+
+        markersMap[selectedFandom.label].push({
+          type: 'line',
+          xMin: yearIndex,
+          xMax: yearIndex,
+          borderColor: '#081133',
+          borderWidth: 2,
+          label: {
+            content: text,
+            enabled: true,
+            position: 'top'
+          }
+        });
+
+        // Update the chart with the new marker
+        createChart(csvData.years, selectedFandom, markersMap[selectedFandom.label]);
+      });
+    }
+
+    // Run the initialize function
+    initialize();
+  </script>
+</body>
+</html>
