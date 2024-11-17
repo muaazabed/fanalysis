@@ -192,7 +192,7 @@ Year,Pairing,Fandom,Type,Works
 2014,Sirius Black/Remus Lupin,Harry Potter,M/M,4144
 2014,Pepper Potts/Tony Stark,The Avengers (Marvel Movies),F/M,3876
 2014,Loki/Tony Stark,The Avengers (Marvel Movies),M/M,3782
-2014,Levi/Eren Yeager,Shingeki no Kyojin | Attack on Titan,M/M,3598
+2014,Levi/Eren Yeager,Attack on Titan,M/M,3598
 2014,Bilbo Baggins/Thorin Oakenshield,The Hobbit,M/M,3446
 2014,Frank Iero/Gerard Way,My Chemical Romance,M/M,3408
 2014,Will Graham/Hannibal Lecter,Hannibal (TV),M/M,3217
@@ -216,7 +216,7 @@ Year,Pairing,Fandom,Type,Works
 2014,Spike/Buffy Summers,Buffy the Vampire Slayer,F/M,2232
 2014,Sherlock Holmes/Molly Hooper,Sherlock (TV),F/M,2196
 2014,Sebastian Moran/Jim Moriarty,Sherlock (TV),M/M,2188
-2014,Marco Bott/Jean Kirstein,Shingeki no Kyojin | Attack on Titan,M/M,2186
+2014,Marco Bott/Jean Kirstein,Attack on Titan,M/M,2186
 2014,Sam Carter/Jack O'Neill,Stargate SG,F/M,2185
 2014,Jane Foster/Thor,The Avengers (Marvel Movies),F/M,2158
 2014,Bruce Banner/Tony Stark,The Avengers (Marvel Movies),M/M,2129
@@ -242,7 +242,7 @@ Year,Pairing,Fandom,Type,Works
 2014,Fili/Kili,The Hobbit,M/M,1480
 2014,America (Hetalia)/England (Hetalia),Hetalia: Axis Powers,M/M,1450
 2014,William Bodie/Ray Doyle,The Professionals,M/M,1391
-2014,Levi/Erwin Smith,Shingeki no Kyojin | Attack on Titan,M/M,1390
+2014,Levi/Erwin Smith,Attack on Titan,M/M,1390
 2014,Castiel/Sam Winchester,Supernatural,M/M,1387
 2014,Zayn Malik/Harry Styles,One Direction (Band),M/M,1375
 2014,Xander Harris/Spike,Buffy the Vampire Slayer,M/M,1371
@@ -859,7 +859,7 @@ Year,Pairing,Fandom,Type,Works
 2021,Levi Ackerman/Erwin Smith,Attack on Titan,M/M,8065
 2021,Tsukishima Kei/Yamaguchi Tadashi,Haikyuu!!,M/M,7968
 2021,Poe Dameron/Finn,Star Wars Sequel Trilogy,M/M,7945
-2022,Castiel/Dean Winchester,Supernatural (TV 2005),M/M,103225
+2022,Castiel/Dean Winchester,Supernatural,M/M,103225
 2022,Sherlock Holmes/John Watson,Sherlock (TV),M/M,66436
 2022,Derek Hale/Stiles Stilinski,Teen Wolf (TV),M/M,65528
 2022,"James ""Bucky"" Barnes/Steve Rogers",Captain America (Movies),M/M,59640
@@ -873,7 +873,7 @@ Year,Pairing,Fandom,Type,Works
 2022,Sirius Black/Remus Lupin,Harry Potter,M/M,32429
 2022,Lan Wangji/Wei Ying,Mo Dao Zu Shi,M/M,31777
 2022,Chat Noir/Marinette Dupain-Cheng,Miraculous Ladybug,F/M,31257
-2022,Dean Winchester/Sam Winchester,Supernatural (TV 2005),M/M,30781
+2022,Dean Winchester/Sam Winchester,Supernatural,M/M,30781
 2022,Magnus Bane/Alec Lightwood,Shadowhunters (TV),M/M,29934
 2022,Rey/Ben Solo,Star Wars Sequel Trilogy,F/M,27926
 2022,Bakugou Katsuki/Kirishima Eijirou,Boku no Hero Academia,M/M,27490
@@ -916,14 +916,14 @@ Year,Pairing,Fandom,Type,Works
 2022,Harry Potter/Severus Snape,Harry Potter,M/M,14446
 2022,Loki/Thor (Marvel),Thor (Movies),M/M,14283
 2022,Harry Potter/Ginny Weasley,Harry Potter,F/M,14206
-2022,Jensen Ackles/Jared Padalecki,Supernatural (TV 2005) RPF,M/M,13983
-2022,Gabriel/Sam Winchester,Supernatural (TV 2005),M/M,13943
+2022,Jensen Ackles/Jared Padalecki,Supernatural RPF,M/M,13983
+2022,Gabriel/Sam Winchester,Supernatural,M/M,13943
 2022,V/Park Jimin,Bangtan Boys,M/M,13918
 2022,"James ""Bucky"" Barnes/Reader",Marvel Cinematic Universe,Other,13702
 2022,Rodney McKay/John Sheppard,Stargate Atlantis,M/M,13416
 2022,Jeon Jungkook/Min Yoongi,Bangtan Boys,M/M,13184
 2022,Bakugou Katsuki/Midoriya Izuku,Boku no Hero Academia,M/M,13091
-2022,Dean Winchester & Sam Winchester,Supernatural (TV 2005),Gen,13020
+2022,Dean Winchester & Sam Winchester,Supernatural,Gen,13020
 2022,Tubbo & TommyInnit,Minecraft (Video Game),M/M,12899
 2022,Clarke Griffin/Lexa,The 100 (TV),F/F,12765
 2022,Clint Barton/Natasha Romanov,The Avengers (Marvel Movies),F/M,12250
@@ -938,7 +938,7 @@ Year,Pairing,Fandom,Type,Works
 2022,Oliver Queen/Felicity Smoak,Arrow (TV 2012),F/M,11583
 2022,Uchiha Sasuke/Uzumaki Naruto,Naruto,M/M,11501
 2022,Killian Jones/Emma Swan,Once Upon a Time (TV),F/M,11438
-2022,Castiel & Dean Winchester,Supernatural (TV 2005),Gen,11427
+2022,Castiel & Dean Winchester,Supernatural,Gen,11427
 2022,Clint Barton/Phil Coulson,The Avengers (Marvel Movies),M/M,11283
 2022,Bilbo Baggins/Thorin Oakenshield,The Hobbit,M/M,11143
 2022,Frank Iero/Gerard Way,My Chemical Romance,M/M,10945
@@ -959,7 +959,7 @@ Year,Pairing,Fandom,Type,Works
 2022,Sherlock Holmes/Molly Hooper,Sherlock (TV),F/M,9337
 2022,Byun Baekhyun/Park Chanyeol,EXO (Band),M/M,9329
 2022,Bakugou Katsuki/Todoroki Shouto,Boku no Hero Academia,M/M,9289
-2023,Castiel/Dean Winchester,Supernatural (TV 2005),M/M,102783
+2023,Castiel/Dean Winchester,Supernatural,M/M,102783
 2023,Sherlock Holmes/John Watson,Sherlock (TV),M/M,63386
 2023,Derek Hale/Stiles Stilinski,Teen Wolf (TV),M/M,63333
 2023,Draco Malfoy/Harry Potter,Harry Potter,M/M,59048
@@ -973,7 +973,7 @@ Year,Pairing,Fandom,Type,Works
 2023,Lan Wangji/Wei Ying,Mo Dao Zu Shi,M/M,34632
 2023,Adrien Agreste | Chat Noir/Marinette Dupain-Cheng | Ladybug,Miraculous Ladybug,F/M,33169
 2023,Keith/Lance (Voltron),Voltron: Legendary Defender,M/M,32035
-2023,Dean Winchester/Sam Winchester,Supernatural (TV 2005),M/M,30257
+2023,Dean Winchester/Sam Winchester,Supernatural,M/M,30257
 2023,Magnus Bane/Alec Lightwood,Shadowhunters (TV),M/M,29501
 2023,Bakugou Katsuki/Kirishima Eijirou,Boku no Hero Academia,M/M,29316
 2023,Merlin/Arthur Pendragon (Merlin),Merlin (TV),M/M,27082
@@ -1001,7 +1001,7 @@ Year,Pairing,Fandom,Type,Works
 2023,Sherlock Holmes & John Watson,Sherlock (TV),Gen,18470
 2023,Hinata Shouyou/Kageyama Tobio,Haikyuu!!,M/M,17813
 2023,"Evan ""Buck"" Buckley/Eddie Diaz (9-1-1 TV)",9-1-1 (TV),M/M,17540
-2023,Levi Ackerman/Eren Yeager,Shingeki no Kyojin | Attack on Titan,M/M,17017
+2023,Levi Ackerman/Eren Yeager,Attack on Titan,M/M,17017
 2023,Blaine Anderson/Kurt Hummel,Glee,M/M,16891
 2023,Jung Hoseok | J-Hope/Min Yoongi | Suga,Bangtan Boys,M/M,16614
 2023,Dan Howell/Phil Lester,Phandom/The Fantastic Foursome (YouTube RPF),M/M,16511
@@ -1020,11 +1020,11 @@ Year,Pairing,Fandom,Type,Works
 2023,Bellamy Blake/Clarke Griffin,The 100 (TV),F/M,14079
 2023,Kim Taehyung | V/Park Jimin,Bangtan Boys,M/M,13885
 2023,"James ""Bucky"" Barnes/Reader",Marvel Cinematic Universe,Other,13815
-2023,Dean Winchester & Sam Winchester,Supernatural (TV 2005),Gen,13771
+2023,Dean Winchester & Sam Winchester,Supernatural,Gen,13771
 2023,Blackbeard | Edward Teach/Stede Bonnet,Our Flag Means Death (TV),M/M,13595
-2023,Jensen Ackles/Jared Padalecki,Supernatural (TV 2005) RPF,M/M,13570
+2023,Jensen Ackles/Jared Padalecki,Supernatural RPF,M/M,13570
 2023,Loki/Thor (Marvel),Thor (Movies),M/M,13563
-2023,Gabriel/Sam Winchester,Supernatural (TV 2005),M/M,13412
+2023,Gabriel/Sam Winchester,Supernatural,M/M,13412
 2023,Jeon Jungkook/Min Yoongi | Suga,Bangtan Boys,M/M,13388
 2023,Fox Mulder/Dana Scully,The X-Files,F/M,13204
 2023,Uchiha Sasuke/Uzumaki Naruto,Naruto,M/M,13062
@@ -1033,7 +1033,7 @@ Year,Pairing,Fandom,Type,Works
 2023,Tartaglia | Childe/Zhongli (Genshin Impact),Genshin Impact (Video Game),M/M,12678
 2023,Clarke Griffin/Lexa,The 100 (TV),F/F,12568
 2023,Technoblade & TommyInnit (Video Blogging RPF),Minecraft (Video Game),Gen,12452
-2023,Levi Ackerman/Erwin Smith,Shingeki no Kyojin | Attack on Titan,M/M,11980
+2023,Levi Ackerman/Erwin Smith,Attack on Titan,M/M,11980
 2023,Mycroft Holmes/Greg Lestrade,Sherlock (TV),M/M,11919
 2023,Jack Harkness/Ianto Jones,Torchwood,M/M,11916
 2023,Frank Iero/Gerard Way,My Chemical Romance,M/M,11872
@@ -1041,7 +1041,7 @@ Year,Pairing,Fandom,Type,Works
 2023,Loki/Tony Stark,The Avengers (Marvel Movies),M/M,11642
 2023,Enjolras/Grantaire (Les Miserables),Les Misérables,M/M,11462
 2023,"James ""Bucky"" Barnes & Steve Rogers",Marvel Cinematic Universe,Gen,11294
-2023,Castiel & Dean Winchester,Supernatural (TV 2005),Gen,11278
+2023,Castiel & Dean Winchester,Supernatural,Gen,11278
 2023,Miya Atsumu/Sakusa Kiyoomi,Haikyuu!!,M/M,11253
 2023,"Steve McGarrett/Danny ""Danno"" Williams",Hawaii Five-0 (2010),M/M,11249
 2023,Aizawa Shouta | Eraserhead & Midoriya Izuku,Boku no Hero Academia,Gen,11220
@@ -1059,7 +1059,7 @@ Year,Pairing,Fandom,Type,Works
 2023,Dabi | Todoroki Touya/Takami Keigo | Hawks,Boku no Hero Academia,M/M,10449
 2023,Kozume Kenma/Kuroo Tetsurou,Haikyuu!!,M/M,10405
 2023,Ranboo & Toby Smith | Tubbo,Minecraft (Video Game),Gen,10303
-2024,Castiel/Dean Winchester,Supernatural (TV 2005),M/M,105322
+2024,Castiel/Dean Winchester,Supernatural,M/M,105322
 2024,Draco Malfoy/Harry Potter,Harry Potter,M/M,64693
 2024,Sherlock Holmes/John Watson,Sherlock (TV),M/M,63810
 2024,Derek Hale/Stiles Stilinski,Teen Wolf (TV),M/M,63483
@@ -1074,7 +1074,7 @@ Year,Pairing,Fandom,Type,Works
 2024,Adrien Agreste | Chat Noir/Marinette Dupain-Cheng | Ladybug,Miraculous Ladybug,F/M,35111
 2024,Dazai Osamu/Nakahara Chuuya (Bungou Stray Dogs),Bungou Stray Dogs,M/M,32770
 2024,Keith/Lance (Voltron),Voltron: Legendary Defender,M/M,32765
-2024,Dean Winchester/Sam Winchester,Supernatural (TV 2005),M/M,31022
+2024,Dean Winchester/Sam Winchester,Supernatural,M/M,31022
 2024,Bakugou Katsuki/Kirishima Eijirou,Boku no Hero Academia,M/M,30272
 2024,Magnus Bane/Alec Lightwood,Shadowhunters (TV),M/M,29458
 2024,Hermione Granger/Draco Malfoy,Harry Potter,F/M,29031
@@ -1105,7 +1105,7 @@ Year,Pairing,Fandom,Type,Works
 2024,James T. Kirk/Spock,Star Trek: Alternate Original Series (Movies),M/M,18008
 2024,Bakugou Katsuki & Midoriya Izuku,Boku no Hero Academia,Gen,17971
 2024,Harry Potter/Ginny Weasley,Harry Potter,F/M,17444
-2024,Levi Ackerman/Eren Yeager,Shingeki no Kyojin | Attack on Titan,M/M,17420
+2024,Levi Ackerman/Eren Yeager,Attack on Titan,M/M,17420
 2024,Aziraphale & Crowley (Good Omens),Good Omens,Gen,17386
 2024,J-Hope/Min Yoongi,Bangtan Boys,M/M,17026
 2024,Akaashi Keiji/Bokuto Koutarou,Haikyuu!!,M/M,16942
@@ -1117,7 +1117,7 @@ Year,Pairing,Fandom,Type,Works
 2024,Ian Gallagher/Mickey Milkovich,Shameless (US),M/M,16004
 2024,Regulus Black/James Potter,Harry Potter,M/M,15556
 2024,Getou Suguru/Gojo Satoru,Jujutsu Kaisen (Manga),M/M,15322
-2024,Dean Winchester & Sam Winchester,Supernatural (TV 2005),Gen,15046
+2024,Dean Winchester & Sam Winchester,Supernatural,Gen,15046
 2024,Eddie Kaspbrak/Richie Tozier,IT,M/M,14996
 2024,Uchiha Sasuke/Uzumaki Naruto,Naruto (Anime & Manga),M/M,14840
 2024,Evil Queen | Regina Mills/Emma Swan,Once Upon a Time (TV),F/F,14808
@@ -1132,12 +1132,12 @@ Year,Pairing,Fandom,Type,Works
 2024,Jeon Jungkook/Min Yoongi | Suga,Bangtan Boys,M/M,14055
 2024,Bellamy Blake/Clarke Griffin,The 100 (TV),F/M,13863
 2024,Loki/Thor (Marvel),Thor (Movies),M/M,13469
-2024,Jensen Ackles/Jared Padalecki,Supernatural (TV 2005) RPF,M/M,13453
-2024,Gabriel/Sam Winchester,Supernatural (TV 2005),M/M,13406
+2024,Jensen Ackles/Jared Padalecki,Supernatural RPF,M/M,13453
+2024,Gabriel/Sam Winchester,Supernatural,M/M,13406
 2024,Rodney McKay/John Sheppard,Stargate Atlantis,M/M,13254
 2024,Technoblade & TommyInnit (Video Blogging RPF),Minecraft (Video Game),Gen,13056
 2024,Aizawa Shouta | Eraserhead & Midoriya Izuku,Boku no Hero Academia,Gen,12989
-2024,Levi Ackerman/Erwin Smith,Shingeki no Kyojin | Attack on Titan,M/M,12968
+2024,Levi Ackerman/Erwin Smith,Attack on Titan,M/M,12968
 2024,Harry Potter/Tom Riddle | Voldemort,Harry Potter,M/M,12783
 2024,Amity Blight/Luz Noceda,The Owl House (Cartoon),F/F,12404
 2024,Nico di Angelo/Will Solace,Percy Jackson and the Olympians - Rick Riordan,M/M,12388
@@ -1153,7 +1153,7 @@ Year,Pairing,Fandom,Type,Works
 2024,Enjolras/Grantaire (Les Miserables),Les Misérables,M/M,11611
 2024,Roronoa Zoro/Sanji,One Piece (Anime & Manga),M/M,11572
 2024,"James ""Bucky"" Barnes & Steve Rogers",Marvel Cinematic Universe,Gen,11540
-2024,Castiel & Dean Winchester,Supernatural (TV 2005),Gen,11487
+2024,Castiel & Dean Winchester,Supernatural,Gen,11487
 2024,Bilbo Baggins/Thorin Oakenshield,The Hobbit,M/M,11479
 2024,"Steve McGarrett/Danny ""Danno"" Williams",Hawaii Five-0 (2010),M/M,11462
 2024,Adora/Catra (She-Ra),She-Ra and the Princesses of Power (2018),F/F,11366

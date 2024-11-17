@@ -1,19 +1,36 @@
 import pandas as pd
 
-# Assuming the CSV data is in a file named 'ao3_data.csv' with the columns:
-# Year, Pairing, Fandom, Type, Race, Works
+# Load the uploaded CSV file
+file_path = 'AO3 Stats.csv'
+data = pd.read_csv(file_path)
 
-# Read the CSV file
-df = pd.read_csv('AO3 Stats.csv')
+# Create a new DataFrame for the output
+output_data = []
 
-# Group by Fandom and aggregate Works
-df_grouped = df.groupby('Fandom')['Works'].apply(list).reset_index()
+# Define the years range
+years = range(2013, 2025)
 
-# Convert the list of works into a comma-separated string
-df_grouped['Works'] = df_grouped['Works'].apply(lambda x: ', '.join(map(str, x)))
+# Get a list of unique fandoms
+fandoms = data['Fandom'].unique()
 
-# Print the DataFrame
-print(df_grouped)
+# Process each fandom
+for fandom in fandoms:
+    fandom_data = []
+    filtered_data = data[data['Fandom'] == fandom]
+    for year in years:
+        yearly_data = filtered_data[filtered_data['Year'] == year]
+        if not yearly_data.empty:
+            max_works = yearly_data['Works'].max()
+        else:
+            max_works = 0
+        fandom_data.append(max_works)
+    output_data.append(fandom_data)
 
-# Save the DataFrame to a CSV file
-df_grouped.to_csv('fandom_works.csv', index=False)
+# Create the resulting DataFrame
+result_df = pd.DataFrame(output_data, columns=[str(year) for year in years], index=fandoms)
+
+# Save to a new CSV file
+result_df.to_csv('fandom_works.csv')
+
+# Print the resulting DataFrame
+print(result_df)
