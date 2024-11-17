@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Line Graph with Two Lines</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div style="width: 100%; margin: 0 auto;">
+    <canvas id="myLineChart"></canvas>
+  </div>
+
+  <script>
+    // Get the context of the canvas element
+    const ctx = document.getElementById('myLineChart').getContext('2d');
+
+    // Create the line chart
+    const myLineChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024'], // X-axis
+        datasets: [
+          {
+            label: 'Rel. # of Fanfics', // Legend for the first line
+            data: [21.15525822,	27.80451987, 39.99347312	,54.39340785,	63.8247532	,68.62201191,	73.42742922	,78.11046749	,83.49514563	,89.29591254	,96.85893775	,100], // Y-axis data
+            borderColor: 'rgba(75, 192, 192, 1)', // Line color
+            backgroundColor: 'rgba(75, 192, 192, 0.2)', // Fill under the line
+            borderWidth: 5, // Line thickness
+            tension: 0.4, // Curve tension
+          },
+          {
+            label: 'Rel. MCR Subscribers', // Legend for the second line
+            data: [11.69908903,	17.34616977,	20.70393375,	29.70859213	,38.47337474	,49.87830228,	54.59614907,	62.11180124,	72.46376812,	80.74534161,	91.09730849,	100], // Y-axis data
+            borderColor: 'rgba(255, 99, 132, 1)', // Line color
+            backgroundColor: 'rgba(255, 99, 132, 0.2)', // Fill under the line
+            borderWidth: 5, // Line thickness
+            tension: 0.4, // Curve tension
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            display: true, // Show the legend
+            position: 'top', // Position of the legend
+          },
+        },
+      },
+    });
+  </script>
+</body>
+</html>
